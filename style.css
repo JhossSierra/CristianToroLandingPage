@@ -53,11 +53,11 @@ h2 {text-shadow: 2px 2px 5px rgba(0, 0, 0);
 }
 
 h3 {
-    font-size: 5vw
+    font-size: 5vw;
 }
 
 i{ font-family: 'Dancing Script', cursive;
-    font-size: 3em;
+    font-size: 10vw;
 }
 .Logo{
     font-size: 1.7em;
@@ -68,7 +68,7 @@ i{ font-family: 'Dancing Script', cursive;
 .banner{
     width: 100vw;
     margin-top: 3.5em;
-    background-color: rgb(171, 171, 171);
+
 }
 
 .bannerImg{
@@ -84,34 +84,44 @@ i{ font-family: 'Dancing Script', cursive;
 .elementContainer{
     display: grid;
     grid-template-columns: auto 60% auto;
+    align-items: start;
+    
 }
 
-.content1 {
+.imageContainer {
+    
     grid-column-start: 2;
+    
 
 }
-.content1 img{
-    height:250px;
-    margin: 10px;
+.imageContainer div{
+    display:inline;
+    
+    margin: 1%;
     border-radius: 10px;
-    background-color: rgb(117, 117, 117);
+    display:
+}
+.imageContainer img{
+    width:40%;
+    margin: 1%;
+    border-radius: 10px;
+    background-color: rgb(196, 196, 196);
 }
 
-.content1 img:hover{
+.imageContainer img:hover{
     transition: .5s ease;
     opacity: .8;
 }
 
-.textCard{grid-column-start: 2;
+.textCard{
+    font-size: 100%;
+    grid-column-start: 2;
     margin-top: 5%;
     padding: 1.5%;
     padding-top: 5%;
     border-radius: 10px;
     box-shadow: -5px 8px 23px -2px rgba(0,0,0,0.6);
     text-align: center;
-    
-
-
 }
 
 .espacio{
@@ -130,7 +140,12 @@ i{ font-family: 'Dancing Script', cursive;
 }
 
 .importantText{
-   font-size: 3rem;
+   font-size: 4vw;
+}
+.vCenter{
+
+    display: flex;
+    align-items: center;
 }
 
 footer{
@@ -212,30 +227,3 @@ footer div {
     
   }
   
-
-
-
-
-
-
-
-
-
-
-/* header{
-   
-    position: fixed;
-    top: 0;
-    width: 100%;
-    
-    
-}
-.headerContainer{
-    width: 100%;
-    display: flex;
-    ;
-}
-
-
-
- */
