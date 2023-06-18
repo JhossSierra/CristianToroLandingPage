@@ -47,6 +47,10 @@ h2 {text-shadow: 2px 2px 5px rgba(0, 0, 0);
     color: #b6b6b6;
     margin: 0;
 }
+
+h3 {
+    font-size: 2.5rem;
+}
 .Logo{
     font-size: 1.7em;
     display: flex;
@@ -83,15 +87,54 @@ h2 {text-shadow: 2px 2px 5px rgba(0, 0, 0);
     height:300px;
     margin: 10px;
     border-radius: 10px;
+    background-color: rgb(117, 117, 117);
 }
+
+.content1 img:hover{
+    transition: .5s ease;
+    opacity: .8;
+}
+
 
 .espacio{
-    height: 6em;
+    height: 8em;
+    display: grid;
+    justify-content: center;
+}
+#LastImg{
+    height: 300px;;
+    margin: 10px;
+    background-color: rgb(117, 117, 117);
+    display:inline-block;
+    border-radius: 10px;
+    z-index: 3;
+}
+#last{
+    z-index: 1;
+    margin: 0;
+}
+#last:hover{
+    transition: .5s ease;
+    opacity: .5;
 }
 
 
 
-
+footer{
+    font-size: 1.2rem;
+    background-color: rgb(255, 255, 255);
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .3em;
+}
+footer img{
+    height: 30px;
+}
+footer div {
+    margin: 0 10px;
+}
 
 
 
