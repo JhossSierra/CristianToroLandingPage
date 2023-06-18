@@ -146,7 +146,7 @@ footer div {
         margin: 0;
     }
     .content1 img{
-        height:150px;   
+        height:100px;   
     }
 }
 
@@ -184,7 +184,8 @@ footer div {
                 top: 4em;
                 margin-left: 2em;   
             }
-    
+    .content1 img{
+                height:70px;}
     
   }
   
