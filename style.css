@@ -2,13 +2,15 @@
 
 body{
     font-family: 'Bebas Neue', sans-serif;
+    background-color: #ffffff;
 }
 header{
+    box-sizing: border-box;
+    width: 100vw;
     font-size: 1.5rem;
     position: fixed;
     top: 0;
-    z-index: 1;
-    width: 100vw;
+    z-index: 2;
     background-color: rgb(255, 255, 255);
     box-shadow: -5px 8px 23px -2px rgba(0,0,0,0.6);
 }
@@ -42,7 +44,7 @@ h1 {
 }
 h2 {text-shadow: 2px 2px 5px rgba(0, 0, 0);
     font-size: 3rem;
-    color: #8b8b8b;
+    color: #b6b6b6;
     margin: 0;
 }
 .Logo{
@@ -60,7 +62,6 @@ h2 {text-shadow: 2px 2px 5px rgba(0, 0, 0);
 
 .bannerImg{
     width: 100vw;
-    ;
     
 }
 .bannerText{
@@ -69,12 +70,24 @@ h2 {text-shadow: 2px 2px 5px rgba(0, 0, 0);
     margin-left: 2em;   
 }
 
+.elementContainer{
+    display: grid;
+    grid-template-columns: auto 60% auto;
+}
 
+.content1 {
+    grid-column-start: 2;
 
+}
+.content1 img{
+    height:300px;
+    margin: 10px;
+    border-radius: 10px;
+}
 
-
-
-
+.espacio{
+    height: 6em;
+}
 
 
 
@@ -92,6 +105,9 @@ h2 {text-shadow: 2px 2px 5px rgba(0, 0, 0);
         text-shadow: 2px 2px 5px rgba(0, 0, 0);
         font-size: 5rem;
         margin: 0;
+    }
+    .content1 img{
+        height:150px;   
     }
 }
 
