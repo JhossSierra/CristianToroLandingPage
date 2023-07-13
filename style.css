@@ -16,6 +16,7 @@ header{
     background-color: rgb(255, 255, 255);
     box-shadow: -5px 8px 23px -2px rgba(0,0,0,0.6);
 }
+
 .headerContainer{
     width: 100vw;
     display: flex;
@@ -38,10 +39,11 @@ a{
     text-decoration: none;
     color: black;
 }
+
 h1 {
     color: white;
     text-shadow: 2px 2px 5px rgba(0, 0, 0);
-    font-size: 18vw;
+    font-size: 17vw;
     margin: 0;
     
 }
@@ -59,6 +61,11 @@ h3 {
 i{ font-family: 'Dancing Script', cursive;
     font-size: 10vw;
 }
+
+.overflow-hidden{
+    overflow: hidden;
+}
+
 .Logo{
     font-size: 1.7em;
     display: flex;
@@ -99,7 +106,6 @@ i{ font-family: 'Dancing Script', cursive;
     
     margin: 1%;
     border-radius: 10px;
-    display:
 }
 .imageContainer img{
     width:40%;
@@ -146,6 +152,22 @@ i{ font-family: 'Dancing Script', cursive;
 
     display: flex;
     align-items: center;
+}
+ .modal{
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(95, 95, 95, 0.8);
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+} 
+
+.modal img{
+    height: 80vh;
 }
 
 footer{
