@@ -108,6 +108,7 @@ i{ font-family: 'Dancing Script', cursive;
     border-radius: 10px;
 }
 .imageContainer img{
+    cursor: pointer;
     width:40%;
     margin: 1%;
     border-radius: 10px;
@@ -149,7 +150,7 @@ i{ font-family: 'Dancing Script', cursive;
    font-size: 4vw;
 }
 .vCenter{
-
+    
     display: flex;
     align-items: center;
 }
