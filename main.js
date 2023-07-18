@@ -4,7 +4,6 @@ const modal=document.querySelector('.modal')
 
 const images = document.querySelectorAll('.vCenter img')
 
-console.log(images)
 
 const arrImages = Array.from(images)
 
@@ -15,7 +14,6 @@ arrImages.map((image)=>image.addEventListener ('click',onClick))
 modal.addEventListener('click',closeModal)
 
 function onClick(e) {
-    console.log(e.target)
     const src =e.target.src;
     openmodal(src)
 }

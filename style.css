@@ -241,10 +241,10 @@ textarea{
 }
 
 button{
-    height: 40px;
+    height: 1/10vw;
     background-color: rgb(70, 189, 70);
     border-radius: 10px;
-    font-size: 1.3em;
+    font-size: 3vw;
     cursor: pointer;
 }
 button:hover{
