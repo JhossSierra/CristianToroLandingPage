@@ -58,6 +58,11 @@ h3 {
     font-size: 5vw;
 }
 
+h4 {
+    font-size: 3vw;
+    margin: 0;
+}
+
 i{ font-family: 'Dancing Script', cursive;
     font-size: 10vw;
 }
@@ -65,7 +70,9 @@ i{ font-family: 'Dancing Script', cursive;
 .overflow-hidden{
     overflow: hidden;
 }
-
+.br{
+    height: 100px;
+}
 .Logo{
     font-size: 1.7em;
     display: flex;
@@ -174,28 +181,73 @@ i{ font-family: 'Dancing Script', cursive;
 footer{
     box-sizing: border-box;
     width: 100vw;
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: #ffffff;
     background-color: rgb(0, 0, 0);
-    height: 40px;
+    height: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1.5vw 0;
+    padding: 1vw 0;
 }
 footer img{
-    height: 30px;
+    height: 18px;
     filter: invert(100%);
 }
 footer div {
-    margin: 0 10px;
+    margin: 0 8px;
     display: flex;
     align-items: center;
 }
 
+.contactContainer{ 
+      
+    display: flex;
+    justify-content: center;
+    
+}
+.form-card{
+    width: 50vw;
+   gap: 8px;
+  
+}
 
+.contactContainer form{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
 
+}
 
+.contactContainer form div{
+    
+    display: flex;
+    flex-direction: column;
+}
+input{
+    border-radius: 5px;
+    border-style: solid 1px;
+}
+textarea{
+    border: solid black 2px;
+    border-radius: 5px;
+    resize: none;
+    border-style: inset;
+    
+}
+
+button{
+    height: 40px;
+    background-color: rgb(70, 189, 70);
+    border-radius: 10px;
+    font-size: 1.3em;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(60, 162, 60) ;
+}
 
 
 
