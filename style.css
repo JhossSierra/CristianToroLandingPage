@@ -241,7 +241,7 @@ textarea{
 }
 
 button{
-    height: 1/10vw;
+    height: 10px + 4vw;
     background-color: rgb(70, 189, 70);
     border-radius: 10px;
     font-size: 3vw;
