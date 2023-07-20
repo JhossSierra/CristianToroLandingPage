@@ -174,8 +174,8 @@ i{ font-family: 'Dancing Script', cursive;
     display: none;
 } 
 
-.modal img{
-    height: 80vh;
+.modal-image{
+    width: 100vh;
 }
 
 footer{
