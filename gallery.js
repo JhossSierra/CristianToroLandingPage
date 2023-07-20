@@ -3,7 +3,7 @@ const body = document.getElementById('body')
 const modal=document.querySelector('.modal')
 
 const images = document.querySelectorAll('.galleryImg')
-console.log (images)
+
 
 const arrImages = Array.from(images)
 

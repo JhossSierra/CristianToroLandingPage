@@ -175,7 +175,7 @@ i{ font-family: 'Dancing Script', cursive;
 } 
 
 .modal-image{
-   width: 90%;
+   height: 80%;
 }
 
 footer{
@@ -263,6 +263,10 @@ button:hover{
     .content1 img{
         height:80px;   
     }
+    .modal-image{
+        width: 80%;
+        height: auto;
+     }
 }
 
 

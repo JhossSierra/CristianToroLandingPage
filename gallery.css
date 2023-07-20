@@ -4,6 +4,7 @@
 }
 .gallery{
     grid-column-start: 2;
+
     
 }
 .imageContainer{
@@ -11,22 +12,8 @@
     margin: 0;
     width: fit-content;
     height: fit-content;
- 
 }
-.modal-image{
-    width: 90%;
- }
 
-.modal{
-    position: fixed;
-    top: 0;
-    width: 100vw;
-    height: 100vh;
-    background-color: rgba(95, 95, 95, 0.8);
-    z-index: 100;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    display: none;
-} 
-
+img.galleryImg {
+    width: 30%;
+}
