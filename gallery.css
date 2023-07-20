@@ -13,9 +13,9 @@
     height: fit-content;
  
 }
-.galleryImg{
-}
-
+.modal-image{
+    width: 90%;
+ }
 
 .modal{
     position: fixed;
@@ -30,6 +30,3 @@
     display: none;
 } 
 
-.modal img{
-    height: 80vh;
-}
