@@ -79,6 +79,11 @@ i{ font-family: 'Dancing Script', cursive;
     justify-content: center;
     align-items: center;
 }
+.Logo span:last-child{
+    font-size: .8em;
+  
+    transform: translateY(10px) translateX(-4px);
+}
 .banner{
     width: 100vw;
     margin-top: 3.5em;
@@ -305,6 +310,10 @@ button:hover{
             }
     .content1 img{
                 height:50px;}
+    
+    .Logo span:last-child{
+                                    
+            transform: translateY(7px) translateX(-3px);
     
   }
   

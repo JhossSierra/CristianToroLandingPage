@@ -12,8 +12,22 @@ modal.addEventListener("click", closeModal);
 
 function onClick(e) {
   const src = e.target.src;
+  const srcArray = src.split("/");
+  console.log(srcArray);
+  const newsrcArray = [
+    srcArray[0],
+    srcArray[1],
+    srcArray[2],
+    srcArray[3],
+    srcArray[4],
+    "HQ",
+    srcArray[5],
+  ];
+  /* const newsrcArray= [srcArray[0],srcArray[1],srcArray[2],srcArray[3],'HQ',srcArray[4]] */
 
-  openmodal(src);
+  const newsrc = newsrcArray.join("/");
+  console.log(newsrc);
+  openmodal(newsrc);
 }
 
 function openmodal(src) {
